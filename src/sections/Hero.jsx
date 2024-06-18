@@ -16,20 +16,20 @@ const Hero = () => {
           <p className="text-xl font-montserrat text-coral-red">
             Our Summer Collection
           </p>
-          <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82] font-bold">
+          <h1 className="mt-10 font-palanquin md:text-8xl text-[40px] md:leading-[100px] leading-[45px] font-bold">
             <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10 mt-none">
               The New Arrival
             </span>
             <br />
             <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
           </h1>
-          <p className="font-monsterrat text-slate-gray text-lg leading-4 mt-3 mb-14 sm:max-w-sm">
+          <p className="font-monsterrat text-slate-gray md:text-lg text-xl leading-4 mt-3 mb-14 sm:max-w-sm">
             Discover stylish Nike arrivals, quality comfort, and innovation for
             your active life.
           </p>
           <Button label="Shop now" iconURL={arrowRight} />
 
-          <div className="flex justify-start items-start flex-wrap w-full mt-5 gap-16">
+          <div className="flex justify-start items-start flex-wrap w-full mt-5 md:gap-16 gap-5">
             {statistics.map((stat) => (
               <div key={stat.label}>
                 <p className="text-4xl font-palanquin font-bold ">
